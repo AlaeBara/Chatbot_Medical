@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block main%}
+
+<div class="container_chat mx-auto">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="../static/image/bot-removebg-preview.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat healtcare</h4>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button ">
+                    <img src="../static/image/send.png" alt="">
+                </button>
+                <button class="chatbox__send--footer send__button clean" id="clean-btn">
+                    <img src="../static/image/Claen1.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../static/script/chat.js"></script>
+
+{%  endblock%}

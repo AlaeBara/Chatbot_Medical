@@ -1,0 +1,247 @@
+/*Les code couleur*/
+$primary_color:#457df6;
+$secondary_color:#008ED6;
+$primary_color_rgba:rgba(69, 125, 246);
+$secondary_color_rgba:rgba(0, 142, 214 , 1);
+
+/*Base*/
+
+.navbar{
+    border-bottom: #008ED6 3px solid;
+    opacity: 0.8;
+}
+
+/*Page*/
+.page{
+    background-color: $primary_color;
+    color: #fff;
+    #home{
+        background: url(/static/image/How-Chatbots-Can-Shape-the-Future-of-Healthcare.jpg);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        background-attachment:fixed ;
+        min-height: 700px;
+        .dark-overlay{
+            background: rgba(0,0,0,0.7);
+            width: 100%;
+            min-height: 700px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            .home-inner{
+                padding-top: 150px;
+    
+                .fas{
+                    color: $secondary_color;
+                    background-color: #fff;
+                    padding: 5px;
+                    border-radius: 5px;
+                    
+                }
+            }
+            .card{
+                opacity: 0.9;
+            }
+        }
+    }
+    #explore-section,#share-section{
+        .fas{
+            color: #fff;
+            background-color: $primary_color;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+    }
+}
+
+/*Sign*/
+
+/*chat*/
+*, html {
+    --primaryGradient: linear-gradient(93.12deg, #00098A.52%, #00098A 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #00098A -2.14%, #00098A 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* CHATBOX
+=============== */
+.container_chat {
+    margin-top: 5rem!important;
+    max-width: 800px;
+    min-height: 580px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    border-radius: 47px;
+    
+}
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    display: flex;
+    border-radius: 40px;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+}
+/* CONTENT ISOPEN */
+.chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+}
+
+/* BUTTON */
+.chatbox__button {
+    text-align: right;
+}
+
+.send__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.send__button:active {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* HEADER */
+.chatbox__header {
+    position: sticky;
+    top: 0;
+}
+
+/* MESSAGES */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+
+}
+
+.messages__item {
+    max-width: 60.6%;
+    width: fit-content;
+}
+
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.chatbox__support {
+    background: white;
+    height: 600px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 47px;
+    border-top-left-radius: 47px;
+}
+
+/* HEADER */
+.chatbox__header {
+    background: #457df6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 5px;
+    border-top-left-radius: 47px;
+    border-top-right-radius: 47px;
+    box-shadow: var(--primaryBoxShadow);
+}
+.chatbox__content--header img{
+    width: 70px;
+    height: 70px;
+}
+
+.chatbox__image--header {
+    margin-right: 10px;
+}
+
+.chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.chatbox__description--header {
+    font-size: .9rem;
+    color: white;
+}
+
+/* Messages */
+.chatbox__messages {
+    padding: 0 20px;
+}
+
+.messages__item {
+    margin-top: 10px;
+    background: white;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #457df6;
+    color: white;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top:20px;
+    
+}
+
+.chatbox__footer input {
+    background-color: #EDF2FE;
+    width: 90%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+.chatbox__footer button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #457df6;
+}
+
+.chatbox__send--footer {
+    color: white;
+}
+
+.chatbox__image--header img{
+    width: 50px;
+    height:50px;
+}

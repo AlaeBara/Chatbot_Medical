@@ -1,0 +1,347 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","No more question"],
+      "responses": [
+        "See you later, and don't forget to visit a real doctor ;)",
+        "Have a nice day, and don't forget to visit a real doctor ;)",
+        "Bye! Come back again soon, and don't forget to visit a real doctor ;)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","you welcome, more questions?","that is my job ;)"]
+    },
+    {
+      "tag": "smoking",
+      "patterns": [
+          "I need to stop smoking",
+          "the cigarettes killing me",
+          "Is nekotin dengers",
+          "Quit smoking",
+          "What are the health benefits of quitting smoking?"
+      ],
+      "responses": [
+          "Quitting smoking brings immediate and long-term health benefits, including increased oxygen levels, improved senses of taste and smell, reduced risk of heart attack and stroke, fewer colds and respiratory infections, and decreased risk of lung cancer and COPD. Quitting also has cosmetic benefits, such as fewer wrinkles and whiter teeth, and saves money.;)",
+          "Quitting smoking improves your health. Set a quit date, get support, avoid triggers, find healthy alternatives, use nicotine replacement therapy if needed, stay positive, and seek professional help if necessary. It's a process that may take time and effort, but the benefits are worth it."
+      ]
+    },
+    {
+      "tag": "advice_smoking",
+      "patterns": [
+          "yes but who to stop smoking",
+          "some advice to stop smoking",
+          "how do i stop smoking now",
+          "I want to stop smoking",
+          "How can I quit smoking?",
+          "Help me quit smoking"
+      ],
+      "responses": [
+          "Quitting smoking improves your health. Set a quit date, get support, avoid triggers, find healthy alternatives, use nicotine replacement therapy if needed, stay positive, and seek professional help if necessary. It's a process that may take time and effort, but the benefits are worth it.",
+          "Here are some tips to quit smoking: make a plan and set a quit date, get support from friends and family or join a support group, avoid triggers, find healthy alternatives like exercise or mindfulness activities, consider nicotine replacement therapy such as gum or patches, stay positive and remind yourself of the reasons to quit, and seek professional help if necessary. Quitting may take time and effort, but the health and life quality benefits make it worth it. Stay committed and don't give up if faced with setbacks.",
+          "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks",
+          "There are many ways to quit smoking, including nicotine replacement therapy, medication, and counseling. It's important to find a method that works for you. You can also try joining a support group or talking to a healthcare professional for guidance."
+      ]
+    },
+    {
+      "tag": "smoking_effects",
+      "patterns": ["What are the health effects of smoking?", "Why is smoking bad for you?"],
+      "responses": ["Smoking can cause a variety of health problems, including lung cancer, heart disease, stroke, respiratory infections, and more. It's important to quit smoking to reduce your risk of these health issues."]
+    },
+    {
+      "tag": "good-shape",
+      "patterns": [
+          "take care of my health",
+          "i feel lazy",
+          "who to take care of my health",
+          "who to take care of my shop",
+          "being in good shape"
+      ],
+      "responses": [
+          "Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins",
+          "Engaging in regular physical activity, such as cardio and strength training",
+          "Staying hydrated by drinking plenty of water",
+          "Managing stress through activities such as meditation or yoga"
+      ]
+    },
+    {
+      "tag": "hot",
+      "patterns": [
+          "feeling hot",
+          "being hot",
+          "hot body temperature",
+          "fever"
+      ],
+      "responses": [
+          "Drink plenty of fluids, such as water or electrolyte-rich beverages, to help your body stay hydrated and lower your temperature.",
+          "Rest and avoid strenuous physical activity until your temperature returns to normal.",
+          "Over-the-counter fever reducers, such as acetaminophen (Tylenol) or ibuprofen (Advil), can also help lower your temperature.",
+          "If your fever is accompanied by other symptoms, such as severe headache, body aches, or a rash, or if it lasts for more than a few days, it is recommended that you seek medical attention."
+      ]
+    },
+    {
+      "tag": "cold",
+      "patterns": [
+          "feeling cold",
+          "being cold",
+          "cold body temperature"
+      ],
+      "responses": [
+          "If you have symptoms such as shivering, numbness, or discoloration of the skin, it's important to seek medical attention as this may be a sign of hypothermia, a condition in which your body temperature drops too low.",
+          "Use a heating pad or hot water bottle to provide warmth to specific areas of your body, such as your hands or feet.",
+          "Drink warm beverages, such as tea or hot soup, to help raise your body temperature.",
+          "Put on warm, layered clothing to help retain heat and keep your body temperature up."
+      ]
+    },
+    {
+      "tag": "eyes",
+      "patterns": [
+         "i feel pain in my eyes",
+          "my eyes hurt.",
+          "what do i need to do if my eyes hurt ?",
+          "eye pain"
+      ],
+      "responses": [
+          "To relieve eye pain: rest eyes, apply warm compress, use artificial tears, switch to glasses if wearing contacts, see doctor if pain persists or accompanied by other symptoms.",
+          "If the pain persists or is accompanied by other symptoms, it's important to see an eye doctor as soon as possible, as this could be a sign of an underlying eye problem that needs medical attention.",
+          "If you wear contact lenses, consider switching to glasses for a while and avoid wearing them for extended periods.",
+          "If you have any other symptoms, such as redness, discharge, or vision changes, seek medical attention as soon as possible."
+      ]
+    },
+    {
+      "tag": "cancer",
+      "patterns": [
+          "What is cancer?", "How does cancer develop?", 
+          "What are the symptoms of cancer?"],
+      "responses": ["Cancer is a disease characterized by the uncontrolled growth and spread of abnormal cells in the body. Cancer can develop when the body's normal control mechanisms stop working. Symptoms of cancer can vary depending on the type and stage of the cancer."]
+    },
+    {
+      "tag": "cancer_prevention",
+      "patterns": [
+          "How can I prevent cancer?",
+          "What lifestyle choices can reduce my risk of cancer?",
+          "Is there a way to avoid getting cancer?"],
+      "responses": ["There are several ways to reduce your risk of developing cancer, including maintaining a healthy diet and weight, exercising regularly, not smoking, protecting your skin from the sun, getting vaccinated, and undergoing regular cancer screenings."]
+    },
+    {
+      "tag": "cancer_treatment",
+      "patterns": [
+          "What are the treatment options for cancer?", 
+          "How is cancer treated?",
+          "Can cancer be cured?"],
+      "responses": ["Treatment for cancer depends on the type and stage of the cancer, as well as the patient's overall health. Treatment options may include surgery, radiation therapy, chemotherapy, immunotherapy, targeted therapy, or a combination of these approaches. In some cases, cancer can be cured, while in others, it may be managed as a chronic condition."]
+    },
+    {
+      "tag": "hair_loss",
+      "patterns": [
+          "What causes hair loss?",
+          "How can I prevent hair loss?", 
+          "Is hair loss reversible?"],
+      "responses": ["Hair loss can be caused by a variety of factors, including genetics, hormonal changes, medications, and medical conditions. There are several ways to prevent or slow down hair loss, such as maintaining a healthy diet, avoiding harsh chemicals and treatments, and managing stress. In some cases, hair loss may be reversible with treatment."]
+    },
+    {
+      "tag": "hair_loss_treatment",
+      "patterns": [
+          "What are the treatment options for hair loss?", 
+          "How can I regrow hair?", 
+          "What medications can help with hair loss?"],
+      "responses": ["Treatment options for hair loss depend on the cause and severity of the condition. Options may include medications, such as minoxidil and finasteride, hair transplants, and scalp reduction surgery. Some people also find success with natural remedies, such as essential oils and scalp massages."]
+    },
+    {
+      "tag": "hair_loss_emotional_impact",
+      "patterns": [
+          "How can I cope with the emotional impact of hair loss?", 
+          "Why does hair loss affect my self-esteem?", 
+          "How can I feel more confident with hair loss?"],
+      "responses": ["Hair loss can be emotionally challenging, and it's important to seek support if you are struggling with feelings of insecurity or low self-esteem. There are many resources available, such as support groups, therapy, and online communities. Some people also find it helpful to experiment with new hairstyles or head coverings, such as wigs or scarves."]
+    },
+    {
+      "tag": "acne",
+      "patterns": [
+          "What causes acne?", 
+          "How can I prevent acne?", 
+          "What are some natural remedies for acne?"],
+      "responses": ["Acne is caused by a combination of factors, including excess oil production, clogged pores, bacteria, and inflammation. To prevent acne, it's important to keep your skin clean and avoid touching your face. Some natural remedies for acne include tea tree oil, aloe vera, and honey. However, it's important to note that these remedies may not work for everyone and may take time to see results."]
+    },
+    {
+      "tag": "acne_treatment",
+      "patterns": [
+          "What are the treatment options for acne?", 
+          "How can I get rid of acne?", 
+          "What medications can help with acne?"],
+      "responses": ["There are several treatment options for acne, including topical treatments such as benzoyl peroxide and retinoids, oral medications such as antibiotics and birth control pills, and procedures such as chemical peels and laser therapy. It's important to consult with a dermatologist to determine the best course of treatment for your individual needs."]
+    },
+    {
+      "tag": "acne_scars",
+      "patterns": [
+          "How can I get rid of acne scars?", 
+          "What treatments are available for acne scars?", 
+          "Can acne scars be prevented?"],
+      "responses": ["Acne scars can be treated with a variety of methods, including laser resurfacing, dermal fillers, and chemical peels. It's important to consult with a dermatologist to determine the best treatment option for your individual needs. While acne scars cannot always be prevented, treating acne as soon as it appears can help minimize the risk of scarring."]
+    },
+    {
+      "tag": "pregnancy_test",
+      "patterns": [
+          "How can I tell if I'm pregnant?", 
+          "When should I take a pregnancy test?", 
+          "What are the early signs of pregnancy?"],
+      "responses": ["The most common early signs of pregnancy include missed periods, nausea, vomiting, breast tenderness, and fatigue. You can take a pregnancy test as early as a week after your missed period. However, some tests are more sensitive than others, so it's important to follow the instructions carefully."]
+    },
+    {
+      "tag": "pregnancy_nutrition",
+      "patterns": [
+          "What should I eat during pregnancy?", 
+          "Are there any foods I should avoid while pregnant?", 
+          "How much weight should I gain during pregnancy?"],
+      "responses": ["A balanced and nutritious diet is important during pregnancy. You should aim to eat plenty of fruits, vegetables, whole grains, and lean proteins. It's also important to stay hydrated and to avoid foods that may be harmful to your baby, such as raw or undercooked meat, fish with high levels of mercury, and unpasteurized dairy products. The amount of weight you should gain during pregnancy depends on your pre-pregnancy weight, but most women should aim to gain between 25 and 35 pounds."]
+    },
+    {
+      "tag": "pregnancy_complications",
+      "patterns": [
+          "What are some complications that can occur during pregnancy?", 
+          "What are the warning signs of pregnancy complications?", 
+          "How can I reduce my risk of pregnancy complications?"],
+      "responses": ["Complications that can occur during pregnancy include gestational diabetes, preeclampsia, preterm labor, and miscarriage. Warning signs of pregnancy complications can include vaginal bleeding, severe headaches, abdominal pain, and reduced fetal movement. To reduce your risk of pregnancy complications, it's important to get regular prenatal care, maintain a healthy diet and exercise routine, and avoid smoking and alcohol."]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+          "What are the symptoms of depression?", 
+          "How do I know if I'm depressed?", 
+          "What does it feel like to have depression?"],
+      "responses": ["The symptoms of depression can vary from person to person, but common symptoms include feelings of sadness, hopelessness, or emptiness; loss of interest in activities that were once enjoyable; changes in appetite and sleep patterns; fatigue or lack of energy; difficulty concentrating or making decisions; and thoughts of suicide. If you're experiencing any of these symptoms, it's important to talk to a healthcare professional."]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+          "How is depression treated?", 
+          "What are some treatments for depression?", 
+          "Do I need medication for depression?"],
+      "responses": ["Depression can be treated with a variety of approaches, including therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT), can help you learn new coping skills and strategies for managing your symptoms. Antidepressant medication can also be effective for some people, but it's important to work with a healthcare professional to find the right medication and dosage for you. Lifestyle changes, such as regular exercise and a healthy diet, can also help improve symptoms of depression."]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+          "Where can I find support for depression?", 
+          "Are there any support groups for depression?", 
+          "How can I get help for depression?"],
+      "responses": ["There are many resources available for people experiencing depression. You can start by talking to your healthcare provider, who can provide referrals to mental health professionals or support groups in your area. There are also many online resources and hotlines that offer support for depression, such as the National Alliance on Mental Illness (NAMI) or the National Suicide Prevention Lifeline. Remember, it's important to seek help and support if you're experiencing symptoms of depression."]
+    },
+    {
+      "tag": "what_is",
+      "patterns": [
+        "What is drug addiction?", 
+        "Can you explain drug addiction?", 
+        "What are the signs of drug addiction?"],
+      "responses": ["Drug addiction is a chronic disease characterized by compulsive drug seeking and use despite harmful consequences. It is often accompanied by physical and psychological dependence on the drug. Common signs of drug addiction include increased tolerance to the drug, withdrawal symptoms when not using the drug, and continued drug use despite negative consequences."]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "What are the treatments for drug addiction?", 
+        "How can I overcome drug addiction?", 
+        "Are there any medications for drug addiction?"],
+      "responses": ["There are several treatments available for drug addiction, including behavioral therapies, medication-assisted treatment (MAT), and support groups. Behavioral therapies can help individuals change their attitudes and behaviors related to drug use, develop coping strategies, and improve problem-solving skills. MAT combines behavioral therapies with medication, such as methadone, buprenorphine, or naltrexone, to help reduce cravings and withdrawal symptoms. Support groups, such as Narcotics Anonymous, can provide additional encouragement and help individuals build a strong support system. It's important to work with a healthcare professional to determine the best treatment approach for your individual needs."]
+    },
+    {
+      "tag": "prevention",
+      "patterns": ["How can I prevent drug addiction?", 
+      "What are some ways to avoid drug addiction?", 
+      "Is drug addiction preventable?"],
+      "responses": ["While drug addiction can be difficult to prevent, there are steps you can take to reduce your risk. These include avoiding peer pressure to use drugs, seeking help for mental health issues, and building strong relationships with family and friends. It's also important to properly dispose of prescription medications and to be cautious when using pain medications, as they can be highly addictive. Education and awareness can also play a role in preventing drug addiction."]
+    },
+    {
+      "tag": "what_is_sexual_health",
+      "patterns": [
+        "What is sexual health?", 
+        "Can you explain sexual health?", 
+        "Why is sexual health important?"],
+      "responses": ["Sexual health is a state of physical, emotional, mental, and social well-being in relation to sexuality. It is not merely the absence of disease, dysfunction, or infirmity. Sexual health requires a positive and respectful approach to sexuality and sexual relationships, as well as the possibility of having pleasurable and safe sexual experiences, free of coercion, discrimination, and violence. Sexual health is important for the overall well-being and quality of life of individuals and communities."]
+    },
+    {
+      "tag": "safe_sex",
+      "patterns": ["What is safe sex?", 
+      "How can I practice safe sex?", 
+      "What are the best methods of contraception?"],
+      "responses": ["Safe sex refers to sexual activity that reduces the risk of sexually transmitted infections (STIs) and unintended pregnancies. This can be achieved through the use of barrier methods, such as condoms, dental dams, and female condoms, as well as through regular testing for STIs and mutual monogamy with a partner who is also free of STIs. Contraception, such as birth control pills, intrauterine devices (IUDs), and condoms, can also help prevent unintended pregnancies. It's important to talk to a healthcare professional to determine the best methods of contraception for your individual needs."]
+    },
+    {
+      "tag": "sexual_violence",
+      "patterns": [
+        "What is sexual violence?", 
+        "What should I do if I've experienced sexual violence?", 
+        "How can I support a friend who has experienced sexual violence?"],
+      "responses": ["Sexual violence refers to any sexual act or behavior that is perpetrated against someone's will, without their consent, or under conditions of duress or coercion. Sexual violence can take many forms, including rape, sexual assault, sexual harassment, and sexual exploitation. If you've experienced sexual violence, it's important to seek medical attention, report the incident to the authorities, and seek emotional support. If you know someone who has experienced sexual violence, you can support them by listening to them, believing them, and helping them access resources, such as counseling and legal assistance."]
+    }
+    ,
+    {
+      "tag": "what_is_weight_loss",
+      "patterns": ["What is weight loss?", "How does weight loss work?"],
+      "responses": ["Weight loss refers to a reduction in body weight, which can be achieved through a variety of methods such as diet, exercise, and lifestyle changes. Weight loss occurs when the body expends more energy than it consumes, leading to a caloric deficit that results in the breakdown of stored fat for energy. This can lead to improvements in overall health, including a reduced risk of chronic diseases such as heart disease and diabetes."]
+    },
+    {
+      "tag": "healthy_weight_loss",
+      "patterns": ["How can I lose weight in a healthy way?", "What are some healthy weight loss tips?"],
+      "responses": ["Losing weight in a healthy way involves making sustainable lifestyle changes that promote long-term weight management. This can include adopting a healthy and balanced diet, engaging in regular physical activity, getting adequate sleep, managing stress levels, and avoiding fad diets or rapid weight loss methods. It's also important to consult with a healthcare professional before starting any weight loss program to ensure that it's safe and appropriate for your individual needs."]
+    },
+    {
+      "tag": "types_of_diets",
+      "patterns": ["What are some popular diets for weight loss?", "Which diet is best for weight loss?"],
+      "responses": ["There are many different types of diets that people follow for weight loss, and what works best for one person may not work for another. Some popular diets for weight loss include the ketogenic diet, the paleo diet, the Mediterranean diet, and the Atkins diet. However, it's important to keep in mind that there is no one-size-fits-all approach to weight loss, and the most effective diet is one that you can stick to in the long term."]
+    },
+    {
+      "tag": "exercise_for_weight_loss",
+      "patterns": ["How important is exercise for weight loss?", "What are the best exercises for weight loss?"],
+      "responses": ["Exercise is an important component of any weight loss program, as it helps to burn calories, build muscle, and improve overall health and fitness. Some of the best exercises for weight loss include cardio exercises such as running, cycling, and swimming, as well as strength training exercises such as weight lifting and bodyweight exercises. It's important to find an exercise routine that you enjoy and can stick to in order to achieve long-term weight loss goals."]
+    },
+    {
+      "tag": "weight_loss_plateaus",
+      "patterns": ["What should I do if I hit a weight loss plateau?", "How can I break through a weight loss plateau?"],
+      "responses": ["Weight loss plateaus are a common experience when trying to lose weight, and can be frustrating. However, there are several strategies that can help to break through a plateau, such as changing up your exercise routine, adjusting your calorie intake, tracking your food intake and exercise more closely, and getting enough rest and recovery. It's also important to stay motivated and focused on your long-term goals, and to seek support from friends, family, or a healthcare professional if needed."]
+    },
+    {
+      "tag": "what_is_heart_disease",
+      "patterns": ["What is heart disease?", "Can you explain heart disease to me?"],
+      "responses": ["Heart disease refers to a range of conditions that affect the heart, including coronary artery disease, arrhythmias, and heart defects. These conditions can lead to various symptoms and complications, such as chest pain, shortness of breath, and heart attacks. Risk factors for heart disease include high blood pressure, high cholesterol, smoking, obesity, and diabetes. It's important to maintain a healthy lifestyle and receive regular medical checkups to prevent and manage heart disease."]
+    },
+    {
+      "tag": "heart_disease_symptoms",
+      "patterns": ["What are the symptoms of heart disease?", "How do I know if I have heart disease?", "My heart hurts, what could be the problem?"],
+      "responses": ["The symptoms of heart disease can vary depending on the type of condition, but common symptoms include chest pain or discomfort, shortness of breath, fatigue, palpitations, and swelling in the legs or abdomen. If you experience any of these symptoms, it's important to seek medical attention as soon as possible."]
+    },
+    {
+      "tag": "preventing_heart_disease",
+      "patterns": ["How can I prevent heart disease?", "What lifestyle changes can I make to reduce my risk of heart disease?"],
+      "responses": ["You can reduce your risk of heart disease by maintaining a healthy lifestyle, including eating a balanced diet, exercising regularly, not smoking, managing stress, and getting regular checkups from your healthcare provider. It's also important to manage any underlying health conditions that can contribute to heart disease, such as high blood pressure or diabetes."]
+    },
+    {
+      "tag": "treatment_for_heart_disease",
+      "patterns": ["What are the treatments for heart disease?", "How is heart disease treated?"],
+      "responses": ["The treatments for heart disease depend on the type and severity of the condition, but may include lifestyle changes, medication, and medical procedures such as angioplasty or bypass surgery. Your healthcare provider can help determine the best treatment plan for you based on your individual needs and medical history."]
+    }
+
+
+    
+    
+   
+  ]
+}
